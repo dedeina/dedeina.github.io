@@ -2,7 +2,8 @@
 layout: single
 title: Test primo post
 excerpt: Il mio primo post...
-tags:
+tags: racconto
+categories: iononnateetu
 ---
 
 # Titolo
