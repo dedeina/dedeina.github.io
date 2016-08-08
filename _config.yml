@@ -1,22 +1,16 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
 # Site Settings
-locale                   : "en"
+locale                   : "it-IT"
 title                    : "AccademiaComeMangi"
 title_separator          : "-"
 name                     : "Angela Sanson"
 description              : ""
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : # the base hostname & protocol for your site
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
+
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", custom"
   disqus:
@@ -58,38 +52,33 @@ analytics:
   google:
     tracking_id          :
 
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      author: asanson
+      author_profile: true
 
-# Site Author
-author:
-  name             : "Angela Sanson"
-  avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Turin, IT"
-  email            :
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           :
-  google_plus      :
-  keybase          :
-  instagram        :
-  lastfm           :
-  linkedin         :
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          :
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
+  # _pages
+  - scope:
+      path: _pages
+      type: pages
+    values:
+      layout: single
+      header: {}
 
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 
 # Reading Files
 include:
