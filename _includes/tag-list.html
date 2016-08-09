@@ -20,9 +20,9 @@
     {% endif %}
 {% endfor %}
 
-<p class="page_taxonomy">
+<p class="archive__item-excerpt">
 <strong><i class="fa fa-fw fa-tags" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].tags_label | default: "Tags:" }} </strong>
-<span itemprop="keywords" class="archive__item-excerpt">
+<span itemprop="keywords">
   {% for tag in tags %}
   <a href="{{ base_path }}{{ tag | slugify | prepend: path_type }}" class="page__taxonomy-item" rel="tag">{{ tag }}</a>
   {% endfor %}
