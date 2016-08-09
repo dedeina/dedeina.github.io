@@ -1,0 +1,30 @@
+{% include base_path %}
+
+{% assign rawcats = "" %}
+{% for post in site.posts %}
+    {% assign tcats = post.categories | join:'|' | append:'|' %}
+    {% assign rawcats = rawcats | append:tcats %}
+{% endfor %}
+
+{% assign rawcats = rawcats | split:'|' | sort %}
+
+{% assign categories = "" %}
+{% for cat in rawcats %}
+    {% if cat != "" %}
+        {% if categories == "" %}
+            {% assign categories = cat | split:'|' %}
+        {% endif %}
+        {% unless categories contains cat %}
+            {% assign categories = categories | join:'|' | append:'|' | append:cat | split:'|' %}
+        {% endunless %}
+    {% endif %}
+{% endfor %}
+
+<p class="archive__item-excerpt">
+<strong><i class="fa fa-fw fa-folder-open" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].categories_label | default: "Categories:" }} </strong>
+<span itemprop="keywords">
+  {% for cat in categories %}
+  <a href="{{ base_path }}{{ cat | slugify | prepend: path_type }}" class="page__taxonomy-item" rel="category">{{ cat }}</a>
+  {% endfor %}
+</span>
+</p>
