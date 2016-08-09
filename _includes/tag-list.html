@@ -20,7 +20,7 @@
     {% endif %}
 {% endfor %}
 
-<p class="page__taxonomy">
+<p class="archive__item-excerpt">
 <strong><i class="fa fa-fw fa-tags" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].tags_label | default: "Tags:" }} </strong>
 <span itemprop="keywords">
   {% for tag in tags %}
