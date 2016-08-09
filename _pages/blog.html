@@ -5,8 +5,10 @@ layout: archive
 
 {% include base_path %}
 
+<div class="sidebar sticky" style="position: absolute; right: 18px; left: 1072.25px; top: 0px; bottom: auto; width: auto; margin-left: 0px; margin-right: 0px; margin-top: 0px;">
 {% include tag-list.html %}
 {% include category-list.html %}
+</div>
 
 {% capture written_year %}'None'{% endcapture %}
 {% for post in site.posts %}
