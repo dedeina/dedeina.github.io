@@ -5,10 +5,10 @@ main:
     url: /blog.html
 
   - title: "Categorie"
-    url: /category.html
+    url: /categories.html
 
   - title: "Tag"
-    url: /tag.html
+    url: /tags.html
 
   - title: "Insegnamento"
     url: /teaching.html
