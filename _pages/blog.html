@@ -5,34 +5,10 @@ layout: archive
 
 {% include base_path %}
 
-<aside class="sidebar__right" style="padding-top:10px">
-  <!-- <nav class="toc"><header><h4 class="nav__title"> -->
-  <!-- 	<i class="fa fa-columns"></i> Included Layouts</h4></header> -->
-  <!--   <ul class="toc__menu" id="markdown-toc"> -->
-  <!--     <li><a href="#default-layout" id="markdown-toc-default-layout">Default Layout</a></li> -->
-  <!--     <li><a href="#compress-layout" id="markdown-toc-compress-layout">Compress Layout</a></li> -->
-  <!--     <li><a href="#single-layout" id="markdown-toc-single-layout">Single Layout</a></li> -->
-  <!--     <li> -->
-  <!-- 	<a href="#archive-layout" id="markdown-toc-archive-layout">Archive Layout</a><ul> -->
-  <!-- 	  <li><a href="#grid-view" id="markdown-toc-grid-view">Grid View</a></li> -->
-  <!-- 	  <li><a href="#taxonomy-archive" id="markdown-toc-taxonomy-archive">Taxonomy Archive</a></li> -->
-  <!-- 	  <li><a href="#home-page" id="markdown-toc-home-page">Home Page</a></li> -->
-  <!-- 	</ul> -->
-  <!--     </li> -->
-  <!--     <li><a href="#splash-page-layout" id="markdown-toc-splash-page-layout">Splash Page Layout</a></li> -->
-  <!--     <li> -->
-  <!-- 	<a href="#headers" id="markdown-toc-headers">Headers</a><ul><li><a href="#header-overlay" id="markdown-toc-header-overlay">Header Overlay</a></li></ul> -->
-  <!--     </li> -->
-  <!--     <li> -->
-  <!-- 	<a href="#sidebars" id="markdown-toc-sidebars">Sidebars</a><ul> -->
-  <!-- 	  <li> -->
-  <!-- 	    <a href="#author-profile" id="markdown-toc-author-profile">Author Profile</a><ul><li><a href="#example-of-twitter-link" id="markdown-toc-example-of-twitter-link">Example of Twitter link</a></li></ul> -->
-  <!-- 	  </li> -->
-  <!-- 	  <li><a href="#custom-sidebar-content" id="markdown-toc-custom-sidebar-content">Custom Sidebar Content</a></li> -->
-  <!-- 	</ul> -->
-  <!--     </li> -->
-  <!--     <li><a href="#social-sharing-links" id="markdown-toc-social-sharing-links">Social Sharing Links</a></li> -->
+{% include tag-list.html %}
+{% include category-list.html %}
 
+<aside class="sidebar__right" style="padding-top:10px">
 {% include tag-list.html %}
 {% include category-list.html %}
 </aside>
