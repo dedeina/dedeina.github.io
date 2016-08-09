@@ -5,10 +5,37 @@ layout: archive
 
 {% include base_path %}
 
-<div class="sidebar sticky" style="position: absolute; right: 18px; left: 1072.25px; top: 0px; bottom: auto; width: 100px; margin-left: 0px; margin-right: 0px; margin-top: 0px;">
+<aside class="sidebar__right">
+  <!-- <nav class="toc"><header><h4 class="nav__title"> -->
+  <!-- 	<i class="fa fa-columns"></i> Included Layouts</h4></header> -->
+  <!--   <ul class="toc__menu" id="markdown-toc"> -->
+  <!--     <li><a href="#default-layout" id="markdown-toc-default-layout">Default Layout</a></li> -->
+  <!--     <li><a href="#compress-layout" id="markdown-toc-compress-layout">Compress Layout</a></li> -->
+  <!--     <li><a href="#single-layout" id="markdown-toc-single-layout">Single Layout</a></li> -->
+  <!--     <li> -->
+  <!-- 	<a href="#archive-layout" id="markdown-toc-archive-layout">Archive Layout</a><ul> -->
+  <!-- 	  <li><a href="#grid-view" id="markdown-toc-grid-view">Grid View</a></li> -->
+  <!-- 	  <li><a href="#taxonomy-archive" id="markdown-toc-taxonomy-archive">Taxonomy Archive</a></li> -->
+  <!-- 	  <li><a href="#home-page" id="markdown-toc-home-page">Home Page</a></li> -->
+  <!-- 	</ul> -->
+  <!--     </li> -->
+  <!--     <li><a href="#splash-page-layout" id="markdown-toc-splash-page-layout">Splash Page Layout</a></li> -->
+  <!--     <li> -->
+  <!-- 	<a href="#headers" id="markdown-toc-headers">Headers</a><ul><li><a href="#header-overlay" id="markdown-toc-header-overlay">Header Overlay</a></li></ul> -->
+  <!--     </li> -->
+  <!--     <li> -->
+  <!-- 	<a href="#sidebars" id="markdown-toc-sidebars">Sidebars</a><ul> -->
+  <!-- 	  <li> -->
+  <!-- 	    <a href="#author-profile" id="markdown-toc-author-profile">Author Profile</a><ul><li><a href="#example-of-twitter-link" id="markdown-toc-example-of-twitter-link">Example of Twitter link</a></li></ul> -->
+  <!-- 	  </li> -->
+  <!-- 	  <li><a href="#custom-sidebar-content" id="markdown-toc-custom-sidebar-content">Custom Sidebar Content</a></li> -->
+  <!-- 	</ul> -->
+  <!--     </li> -->
+  <!--     <li><a href="#social-sharing-links" id="markdown-toc-social-sharing-links">Social Sharing Links</a></li> -->
+
 {% include tag-list.html %}
 {% include category-list.html %}
-</div>
+</aside>
 
 {% capture written_year %}'None'{% endcapture %}
 {% for post in site.posts %}
