@@ -7,9 +7,6 @@ main:
   - title: "Categorie"
     url: /categories.html
 
-  - title: "Tag"
-    url: /tags.html
-
   - title: "Insegnamento"
     url: /teaching.html
 
