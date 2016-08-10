@@ -8,7 +8,7 @@ main:
     url: /categories/
 
   - title: "Insegnamento"
-    url: /teaching.html
-
+    url: /teaching/
+    
   - title: "About"
-    url: /about.html
+    url: /about/
