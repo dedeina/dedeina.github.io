@@ -2,7 +2,7 @@
 
 main:
   - title: "Blog"
-    url: /blog.html
+    url: /blog/
 
   - title: "Categorie"
     url: /categories.html
