@@ -9,7 +9,7 @@ permalink: /blog/categories/
 {% for post in site.posts %}
 {% capture category %}{{ post.category}}{% endcapture %}
   {% if category != post_category %}
-    <a href="/blog/categories/{{ category }}">
+    <a href="/blog/categories/{{ category | slugify }}">
       <h2 id="{{ category | slugify }}" class="archive__subtitle">{{ category }}</h2>
     </a>
     {% capture post_category %}{{ category }}{% endcapture %}
