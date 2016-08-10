@@ -1,5 +1,5 @@
 ---
-title: Chi sono
+title: Esperienze didattiche
 permalink: /teaching/
 ---
 
