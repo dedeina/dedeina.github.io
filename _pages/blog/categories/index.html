@@ -8,10 +8,12 @@ permalink: /blog/categories/
 {% capture post_category %}'None'{% endcapture %}
 {% for post in site.posts %}
 {% capture category %}{{ post.category}}{% endcapture %}
-  {% if category != post_category %}
-    <a href="/blog/categories/{{ category | slugify }}">
-      <h2 id="{{ category | slugify }}" class="archive__subtitle">{{ category }}</h2>
-    </a>
+    {% if category != post_category %}
+     <h2 id="{{ category | slugify }}" class="archive__subtitle">
+       <a href="/blog/categories/{{ category | slugify }}">
+         {{ category }}
+       </a>
+     </h2>
     {% capture post_category %}{{ category }}{% endcapture %}
   {% endif %}
   {% include archive-single.html %}
