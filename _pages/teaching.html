@@ -1,0 +1,22 @@
+---
+title: Esperienze didattiche
+permalink: /teaching/
+---
+
+<p>
+</p>
+
+<div id="index">
+  {% for course in site.data.courses %}
+
+  <article>
+    <h3>{{ course.title }}</h3>
+
+    <p>
+      {{ course.desc }} <i>&quot;{{ course.title }}&quot;</i> at <a href="{{ course.link }}"> {{ course.place }}</a>, {{ course.date }}.
+    </p>
+ 
+  </article>
+  
+  {% endfor %}
+</div>
