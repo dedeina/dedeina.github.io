@@ -6,8 +6,8 @@ name                     : "Angela Sanson"
 description              : ""
 url                      : # the base hostname & protocol for your site
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+repository               : 
+teaser                   :  
 breadcrumbs            	 : false
 words_per_minute         : 200
 
@@ -48,9 +48,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google"
   google:
-    tracking_id          :
+    tracking_id          : "UA-82258738-1"
 
 # Defaults
 defaults:
