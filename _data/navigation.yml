@@ -5,7 +5,7 @@ main:
     url: /blog/
 
   - title: "Categorie"
-    url: /categories.html
+    url: /categories/
 
   - title: "Insegnamento"
     url: /teaching.html
