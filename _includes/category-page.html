@@ -1,0 +1,7 @@
+{% include base_path %}
+
+<h2 id="{{ year | slugify }}" class="archive__subtitle">{{ page.category }}</h2>
+
+{% for post in site.tags[page.category] %}
+    {% include archive-single.html %}
+{% endfor %}
