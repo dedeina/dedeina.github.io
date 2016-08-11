@@ -15,7 +15,7 @@ words_per_minute         : 200
 # https://developers.facebook.com/docs/plugins/comments
 comments:
   facebook:
-    appid                : 1655693217988910
+    appid                : 1730727273843220
     num_posts            : 5
     colorscheme          : "light" # "dark"
 
@@ -67,7 +67,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: yes
+      comments: true
       share: false
       related: false
 
