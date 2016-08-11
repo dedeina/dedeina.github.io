@@ -11,19 +11,13 @@ teaser                   :
 breadcrumbs            	 : false
 words_per_minute         : 200
 
+# Comments
+# https://developers.facebook.com/docs/plugins/comments
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", custom"
-  disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-atom_feed:
-  path                   : # blank (default) uses feed.xml
+    appid                : 1655693217988910
+    num_posts            : 5
+    colorscheme          : "light" # "dark"
 
 # SEO Related
 google_site_verification : "fQ6Ksp4DVpwSCbDlYezAYYfkjADSADlpkvz-0I20aYs"
@@ -32,7 +26,7 @@ google_site_verification : "fQ6Ksp4DVpwSCbDlYezAYYfkjADSADlpkvz-0I20aYs"
 twitter:
   username               :
 facebook:
-  username               :
+  username               : 
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
