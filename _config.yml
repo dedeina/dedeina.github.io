@@ -4,7 +4,7 @@ title                    : "AccademiaComeMangi"
 title_separator          : "-"
 name                     : "Angela Sanson"
 description              : ""
-url                      : # the base hostname & protocol for your site
+url                      : "http://www.accademiacomemangi.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : 
 teaser                   :  
