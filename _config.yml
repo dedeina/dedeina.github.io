@@ -13,11 +13,13 @@ words_per_minute         : 200
 
 # Comments
 # https://developers.facebook.com/docs/plugins/comments
-comments:
+comments: 
+  provider               : "facebook"	
   facebook:
     appid                : 1730727273843220
     num_posts            : 5
     colorscheme          : "light" # "dark"
+
 
 # SEO Related
 google_site_verification : "fQ6Ksp4DVpwSCbDlYezAYYfkjADSADlpkvz-0I20aYs"
