@@ -29,7 +29,7 @@ google_site_verification : "fQ6Ksp4DVpwSCbDlYezAYYfkjADSADlpkvz-0I20aYs"
 analytics:
   provider               : "google-universal"
   google:
-    tracking_id          : "UA-82258738-1"
+    tracking_id          : "UA-82326236-1"
 
 
 # Defaults
