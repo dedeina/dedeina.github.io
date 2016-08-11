@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Test primo post
+title: Test terzo post
 header:
   teaser: my-awesome-post-teaser.jpg
 category: racconto
