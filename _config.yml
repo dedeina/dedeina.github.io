@@ -7,7 +7,7 @@ description              : ""
 url                      : "http://www.accademiacomemangi.com"
 baseurl                  : ""
 repository               : 
-teaser                   : "default-teaser.jpg" 
+teaser                   :  
 breadcrumbs            	 : false
 words_per_minute         : 200
 
