@@ -1,6 +1,6 @@
 {% include base_path %}
 
-<h2 id="{{ year | slugify }}" class="archive__subtitle">{{ page.tag }}</h2>
+<h2 id="{{ page.tag | slugify }}" class="archive__subtitle">{{ page.tag | capitalize }}</h2>
 
 {% for post in site.tags[page.tag] %}
     {% include archive-single.html %}
