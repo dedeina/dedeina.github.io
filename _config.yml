@@ -5,7 +5,7 @@ title_separator          : "-"
 name                     : "Angela Sanson"
 description              : ""
 url                      : "http://www.accademiacomemangi.com"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "/"
 repository               : 
 teaser                   :  
 breadcrumbs            	 : false
@@ -28,9 +28,9 @@ google_site_verification : "fQ6Ksp4DVpwSCbDlYezAYYfkjADSADlpkvz-0I20aYs"
 twitter:
   username               :
 facebook:
-  username               : 
-  app_id                 :
-  publisher              :
+  username               : "accademiacomemangi@gmail.com"
+  app_id                 : "1068093863244383"
+  publisher              : "AccademiaComeMangi"
 og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
@@ -70,7 +70,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: false
+      share: true
       related: false
 
 # Reading Files
