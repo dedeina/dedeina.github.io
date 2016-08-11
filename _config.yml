@@ -11,8 +11,8 @@ teaser                   :
 breadcrumbs            	 : false
 words_per_minute         : 200
 
+
 # Comments
-# https://developers.facebook.com/docs/plugins/comments
 comments: 
   provider               : "facebook"	
   facebook:
@@ -24,26 +24,13 @@ comments:
 # SEO Related
 google_site_verification : "fQ6Ksp4DVpwSCbDlYezAYYfkjADSADlpkvz-0I20aYs"
 
-# Social Sharing
-twitter:
-  username               :
-facebook:
-  username               : "accademiacomemangi@gmail.com"
-  app_id                 : "1068093863244383"
-  publisher              : "AccademiaComeMangi"
-og_image                 : # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
 
 # Analytics
 analytics:
   provider               : "google-universal"
   google:
     tracking_id          : "UA-82258738-1"
+
 
 # Defaults
 defaults:
@@ -72,6 +59,7 @@ defaults:
       comments: true
       share: true
       related: false
+
 
 # Reading Files
 include:
@@ -103,12 +91,14 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
+
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
+
 
 # Markdown Processing
 kramdown:
@@ -121,11 +111,13 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+
 # Outputting
 permalink: /blog/categories/:categories/:title/
 paginate: 3 # amount of posts to show
 paginate_path: /page:num/
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
 
 # Plugins
 gems:
@@ -135,6 +127,7 @@ gems:
   - jekyll-feed
   - jemoji
 
+
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -143,13 +136,16 @@ whitelist:
   - jekyll-feed
   - jemoji
 
+
 category_archive:
   type: liquid
   path: /blog/categories/
 
+
 tag_archive:
   type: liquid
   path: /blog/tags/
+
 
 # HTML Compression
 # - http://jch.penibelst.de/
