@@ -5,7 +5,7 @@ title_separator          : "-"
 name                     : "Angela Sanson"
 description              : ""
 url                      : "http://www.accademiacomemangi.com"
-baseurl                  : "/"
+baseurl                  : ""
 repository               : 
 teaser                   :  
 breadcrumbs            	 : false
