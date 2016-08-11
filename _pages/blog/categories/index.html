@@ -11,7 +11,7 @@ permalink: /blog/categories/
     {% if category != post_category %}
      <h2 id="{{ category | slugify }}" class="archive__subtitle">
        <a href="/blog/categories/{{ category | slugify }}">
-         {{ category }}
+         {{ category | capitalize }}
        </a>
      </h2>
     {% capture post_category %}{{ category }}{% endcapture %}
