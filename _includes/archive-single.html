@@ -17,7 +17,6 @@
   <!-- MOD -->
   <article class="archive__item" itemscope="" itemtype="http://schema.org/BlogPosting">
     <meta itemprop="keywords" content="{{ post.tags | join: ',' }}" />
-    <meta itemprop="description" content="{{ post.excerpt | strip_html | truncatewords: 40 }}" />
     <meta itemprop="datePublished" content="{{ post.date | date: '%B %e, %Y'  }}" />
 
     {% if post.author and site.data.authors[post.author] %}
