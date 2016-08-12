@@ -25,17 +25,26 @@
 
     <meta itemprop="author" content="{{ pauth.name }}" />
     <meta itemprop="dateModified" content="{{ post.date | date: '%B %e, %Y'  }}" />
-    <!-- END MOD -->
-    
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img itemprop="image" src=
+    <img itemprop="image" src=
           {% if teaser contains "://" %}
             "{{ teaser }}"
           {% else %}
             "{{ teaser | prepend: "/images/" | prepend: base_path }}"
           {% endif %}
-          alt="" width="500" height="300">
+         alt="" width="500" height="300" />
+
+    
+    <!-- END MOD -->
+    
+    {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
       </div>
     {% endif %}
     <h2 class="archive__item-title" itemprop="headline">
