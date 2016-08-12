@@ -19,8 +19,10 @@
     <meta itemprop="keywords" content="{{ post.tags | join: ',' }}" />
     <meta itemprop="description" content="{{ content | strip_html | truncatewords: 40 }}" />
     <meta itemprop="datePublished" content="{{ post.date | date: '%B %e, %Y'  }}" />
-    <meta itemprop="author" content="{{ post.author }}" />
-  <!-- END MOD -->
+    <meta itemprop="author" content="{{ post.author.name }}" />
+    <meta itemprop="publisher" content="{{ post.publisher }}" />
+    <meta itemprop="dateModified" content="{{ post.date | date: '%B %e, %Y'  }}" />
+    <!-- END MOD -->
 
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
