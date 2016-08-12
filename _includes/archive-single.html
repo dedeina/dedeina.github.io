@@ -19,8 +19,12 @@
     <meta itemprop="keywords" content="{{ post.tags | join: ',' }}" />
     <meta itemprop="description" content="{{ post.excerpt | strip_html | truncatewords: 40 }}" />
     <meta itemprop="datePublished" content="{{ post.date | date: '%B %e, %Y'  }}" />
-    {% assign p_author = post.author %}
-    <meta itemprop="author" content="{{ p_author.name }}" />
+
+    {% if post.author and site.data.authors[post.author] %}
+    {% assign pauth = site.data.authors[post.author] %}{% else %}{% assign pauth = site.author %}
+    {% endif %}
+
+    <meta itemprop="author" content="{{ pauth.name }}" />
     <meta itemprop="publisher" content="{{ post.publisher }}" />
     <meta itemprop="dateModified" content="{{ post.modified | date: '%B %e, %Y'  }}" />
   <!-- END MOD -->
