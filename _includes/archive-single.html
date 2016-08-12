@@ -14,6 +14,7 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+
     <meta itemprop="keywords" content="{{ post.tags | join: ',' }}" />
     <meta itemprop="datePublished" content="{{ post.date | date: '%B %e, %Y'  }}" />
 
