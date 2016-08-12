@@ -16,7 +16,8 @@
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     
     {% if include.type == "grid" and teaser %}
-    <div class="archive__item-teaser" itemtype="http://schema.org/BlogPosting">
+    
+    <div class="archive__item-teaser" itemscope itemtype="http://schema.org/BlogPosting">
       <meta itemprop="keywords" content="{{ post.tags | join: ',' }}" />
       <meta itemprop="datePublished" content="{{ post.date | date: '%B %e, %Y'  }}" />
 
@@ -36,6 +37,7 @@
           alt="" width="500" height="300" />
     </div>
     {% endif %}
+
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
