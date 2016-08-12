@@ -13,22 +13,20 @@
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
-  <!-- <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork"> -->
-  <!-- MOD -->
-  <article class="archive__item" itemscope="" itemtype="http://schema.org/BlogPosting">
-    <meta itemprop="keywords" content="{{ post.tags | join: ',' }}" />
-    <meta itemprop="datePublished" content="{{ post.date | date: '%B %e, %Y'  }}" />
-
-    {% if post.author and site.data.authors[post.author] %}
-    {% assign pauth = site.data.authors[post.author] %}{% else %}{% assign pauth = site.author %}
-    {% endif %}
-
-    <meta itemprop="author" content="{{ pauth.name }}" />
-    <meta itemprop="dateModified" content="{{ post.date | date: '%B %e, %Y'  }}" />
-    <!-- END MOD -->
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     
     {% if include.type == "grid" and teaser %}
-    <div class="archive__item-teaser">
+    <div class="archive__item-teaser" itemtype="http://schema.org/BlogPosting">
+      <meta itemprop="keywords" content="{{ post.tags | join: ',' }}" />
+      <meta itemprop="datePublished" content="{{ post.date | date: '%B %e, %Y'  }}" />
+
+      {% if post.author and site.data.authors[post.author] %}
+      {% assign pauth = site.data.authors[post.author] %}{% else %}{% assign pauth = site.author %}
+      {% endif %}
+
+      <meta itemprop="author" content="{{ pauth.name }}" />
+      <meta itemprop="dateModified" content="{{ post.date | date: '%B %e, %Y'  }}" />
+
       <img itemprop="image" src=
           {% if teaser contains "://" %}
             "{{ teaser }}"
