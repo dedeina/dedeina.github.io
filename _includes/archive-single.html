@@ -16,24 +16,14 @@
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     
     {% if include.type == "grid" and teaser %}  
-    <div class="archive__item-teaser" itemscope itemtype="http://schema.org/BlogPosting">
-      <meta itemprop="keywords" content="{{ post.tags | join: ',' }}" />
-      <meta itemprop="datePublished" content="{{ post.date | date: '%B %e, %Y'  }}" />
-
-      {% if post.author and site.data.authors[post.author] %}
-      {% assign pauth = site.data.authors[post.author] %}{% else %}{% assign pauth = site.author %}
-      {% endif %}
-
-      <meta itemprop="author" content="{{ pauth.name }}" />
-      <meta itemprop="dateModified" content="{{ post.date | date: '%B %e, %Y'  }}" />
-
-      <img itemprop="image" src=
+    <div class="archive__item-teaser">
+      <img src=
           {% if teaser contains "://" %}
             "{{ teaser }}"
           {% else %}
             "{{ teaser | prepend: "/images/" | prepend: base_path }}"
           {% endif %}
-          alt="" width="500" height="300" itemscope itemtype="http://schema.org/ImageObject" />
+          alt="" />
     </div>
     {% endif %}
 
