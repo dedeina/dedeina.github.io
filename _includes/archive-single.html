@@ -25,9 +25,10 @@
     {% endif %}
 
     <meta itemprop="author" content="{{ pauth.name }}" />
-    <meta itemprop="publisher" content="{{ post.publisher }}" />
-    <meta itemprop="dateModified" content="{{ post.modified | date: '%B %e, %Y'  }}" />
-  <!-- END MOD -->
+    <meta itemprop="publisher" content="{{ pauth.name }}" />
+    <meta itemprop="dateModified" content="{{ page.modified | date: '%B %e, %Y'  }}" />
+    <meta itemprop="image" content="{{ post.teaser }}" />
+    <!-- END MOD -->
     
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
