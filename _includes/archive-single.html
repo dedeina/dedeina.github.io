@@ -28,7 +28,7 @@
     <meta itemprop="publisher" content="" />
     <meta itemprop="logo" content="" />
     <meta itemprop="dateModified" content="{{ post.date | date: '%B %e, %Y'  }}" />
-    <meta itemprop="image" content="{{ post.header.teaser }}" />
+    <meta itemprop="image" src="/image/{{ post.header.teaser }}" alt=""/>
     <!-- END MOD -->
     
     {% if include.type == "grid" and teaser %}
