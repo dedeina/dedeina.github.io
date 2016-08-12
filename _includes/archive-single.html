@@ -18,6 +18,7 @@
   <article class="archive__item" itemscope="" itemtype="http://schema.org/BlogPosting">
     <meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
     <meta itemprop="description" content="{{ content | strip_html | truncatewords: 40 }}" />
+    <meta itemprop="datePublishe" content="{{ page.date | date: '%B %e, %Y'  }}" />
   <!-- END MOD -->
 
     {% if include.type == "grid" and teaser %}
