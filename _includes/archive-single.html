@@ -17,14 +17,13 @@
   <!-- MOD -->
   <article class="archive__item" itemscope="" itemtype="http://schema.org/BlogPosting">
     <meta itemprop="keywords" content="{{ post.tags | join: ',' }}" />
-    <meta itemprop="description" content="{{ content | strip_html | truncatewords: 40 }}" />
+    <meta itemprop="description" content="{{ post.excerpt | strip_html | truncatewords: 40 }}" />
     <meta itemprop="datePublished" content="{{ post.date | date: '%B %e, %Y'  }}" />
-    <meta itemprop="author" content="{{ post.author }}" />
+    {% assign p_author = post.author %}
+    <meta itemprop="author" content="{{ p_author.name }}" />
     <meta itemprop="publisher" content="{{ post.publisher }}" />
-    <meta itemprop="dateModified" content="{{ post.date | date: '%B %e, %Y'  }}" />
-    <!-- END MOD -->
-
-    {{ post.author }}
+    <meta itemprop="dateModified" content="{{ post.modified | date: '%B %e, %Y'  }}" />
+  <!-- END MOD -->
     
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
