@@ -15,8 +15,7 @@
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     
-    {% if include.type == "grid" and teaser %}
-    
+    {% if include.type == "grid" and teaser %}  
     <div class="archive__item-teaser" itemscope itemtype="http://schema.org/BlogPosting">
       <meta itemprop="keywords" content="{{ post.tags | join: ',' }}" />
       <meta itemprop="datePublished" content="{{ post.date | date: '%B %e, %Y'  }}" />
@@ -34,7 +33,7 @@
           {% else %}
             "{{ teaser | prepend: "/images/" | prepend: base_path }}"
           {% endif %}
-          alt="" width="500" height="300" />
+          alt="" width="500" height="300" itemtype="http://schema.org/ImageObject" />
     </div>
     {% endif %}
 
