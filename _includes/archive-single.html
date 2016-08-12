@@ -25,10 +25,7 @@
     {% endif %}
 
     <meta itemprop="author" content="{{ pauth.name }}" />
-    <meta itemprop="publisher" content="" />
-    <meta itemprop="logo" content="" />
     <meta itemprop="dateModified" content="{{ post.date | date: '%B %e, %Y'  }}" />
-    <meta itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject" url="/image/{{ post.header.teaser }}" />
     <!-- END MOD -->
     
     {% if include.type == "grid" and teaser %}
