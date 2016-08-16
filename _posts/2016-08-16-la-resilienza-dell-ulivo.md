@@ -5,7 +5,7 @@ category: racconto
 tags: []
 header:
   teaser: book-teaser.jpg
-excerpt: "il treno intercity notte per Lecce delle ore 19 &egrave; in partenza dal binario 5".L’altoparlante della stazione di Torino Porta Nuova mi avvisa che, di l&igrave; a breve, il nostro viaggio avr&agrave; inizio. Dalla banchina d&ograve; un ultimo rapido sguardo a quel treno lento e vecchio. Spengo la sigaretta, non abbastanza rapidamente da evitarmi il rimprovero di mia nonna che, dal finestrino del nostro scompartimento, mi rimbrotta, inveendo sul mio vizio dannoso e costoso. Salgo su e mi sistemo...
+excerpt: "il treno intercity notte per Lecce delle ore 19 &egrave; in partenza dal binario 5".L'altoparlante della stazione di Torino Porta Nuova mi avvisa che, di l&igrave; a breve, il nostro viaggio avr&agrave; inizio. Dalla banchina d&ograve; un ultimo rapido sguardo a quel treno lento e vecchio. Spengo la sigaretta, non abbastanza rapidamente da evitarmi il rimprovero di mia nonna che, dal finestrino del nostro scompartimento, mi rimbrotta, inveendo sul mio vizio dannoso e costoso. Salgo su e mi sistemo...
 ---
 
 # La resilienza dell'ulivo
