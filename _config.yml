@@ -60,7 +60,7 @@ defaults:
       share: true
       related: true
       sitemap: true
-			    
+      
 # Reading Files
 include:
   - .htaccess
