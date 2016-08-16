@@ -4,7 +4,7 @@ title: La resilienza dell'ulivo
 category: racconto
 tags: [unaltrastoriadadire]
 header: 
-  teaser: book-teaser.jpg
+  teaser: ulivo-teaser.jpg
 excerpt: L'altoparlante della stazione di Torino Porta Nuova mi avvisa che, di l&igrave; a breve, il nostro viaggio avr&agrave; inizio. Dalla banchina d&ograve; un ultimo rapido sguardo a quel treno lento e vecchio. Spengo la sigaretta, non abbastanza rapidamente da evitarmi il rimprovero di mia nonna che, dal finestrino del nostro scompartimento, mi rimbrotta, inveendo sul mio vizio dannoso e costoso. Salgo su e mi sistemo. Siamo l'una di fronte all'altra, di fianco a noi una coppia, pi&ugrave; in l&agrave; due ragazzi. In uno scompartimento di pochi metri quadrati c'&egrave; un variegato angolo di mondo che, per circa dodici ore, si far&agrave; compagnia. Il capostazione fischia, il treno parte. 
 ---
 
