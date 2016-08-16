@@ -60,7 +60,7 @@ defaults:
       share: true
       related: true
       sitemap: true
-
+			    
 # Reading Files
 include:
   - .htaccess
@@ -141,11 +141,10 @@ category_archive:
   type: liquid
   path: /blog/categories/
 
-
 tag_archive:
   type: liquid
   path: /blog/tags/
-
+  layout: tag.html
 
 # HTML Compression
 # - http://jch.penibelst.de/
