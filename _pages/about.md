@@ -9,4 +9,3 @@ Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e del
 
 
 ![Bio Image](/images/bio-photo2.jpg)
-Format: ![Alt Text](url)
