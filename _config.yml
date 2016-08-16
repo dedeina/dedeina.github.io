@@ -144,7 +144,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /blog/tags/
-  layout: tag.html
 
 # HTML Compression
 # - http://jch.penibelst.de/
