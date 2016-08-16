@@ -1,6 +1,6 @@
 ---
 layout: single
-title: La resilienza dell'ulivo
+title: La resilienza dell ulivo
 category: racconto
 tags: []
 header:
