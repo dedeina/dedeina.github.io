@@ -1,6 +1,6 @@
 ---
 layout: single
-title: La resilienza dell ulivo
+title: La resilienza dell'ulivo
 category: racconto
 tags: []
 header:
@@ -9,7 +9,7 @@ excerpt: "il treno intercity notte per Lecce delle ore 19 &egrave; in partenza d
 ---
 
 # La resilienza dell'ulivo
-> "il treno intercity notte per Lecce delle ore 19 &egrave; in partenza dal binario 5".
+"il treno intercity notte per Lecce delle ore 19 &egrave; in partenza dal binario 5".
 
 L'altoparlante della stazione di Torino Porta Nuova mi avvisa che, di l&igrave; a breve, il nostro viaggio avr&agrave; inizio. Dalla banchina d&ograve; un ultimo rapido sguardo a quel treno lento e vecchio. Spengo la sigaretta, non abbastanza rapidamente da evitarmi il rimprovero di mia nonna che, dal finestrino del nostro scompartimento, mi rimbrotta, inveendo sul mio vizio dannoso e costoso. Salgo su e mi sistemo. Siamo l'una di fronte all'altra, di fianco a noi una coppia, pi&ugrave; in l&agrave; due ragazzi. In uno scompartimento di pochi metri quadrati c'&egrave; un variegato angolo di mondo che, per circa dodici ore, si far&agrave; compagnia. Il capostazione fischia, il treno parte. 
 Sono ormai passati pi&ugrave; di vent'anni dal nostro primo viaggio in direzione della sua amata Puglia e nulla pare essere cambiato: stessi sedili scomodi, stessi finestrini sporchi, stesso caldo asfissiante, stessa strana coppia di viaggiatrici che ai primi di agosto, mano nella mano, attraversano l'Italia. Anche la mise che lei indossa &egrave; sempre la stessa, lunghi pantaloni di cotone fiorati con su una maglietta arancione. Il viaggio in treno &egrave;, senza dubbio, l'unica occasione in cui abbandona la gonna per cedere alla comodit&agrave; di un pantalone. Questo perché: "alle donne si addice la gonna, sotto il ginocchio certo, quel vedo non vedo che &egrave; il segreto del femminile". E poi perché: "la gonna &egrave; la dimostrazione di come le donne riescano nelle difficolt&agrave;". Non so dire quante volte le ho sentito ripetere questa frase, ma ricordo bene quando le chiesi che cosa significasse, la sua risposta fu: "prova tu a far andare un uomo in campagna a vendemmiare con indosso una veste, rimarr&agrave; sul carretto seduto tutta la giornata incapace di scendere gi&ugrave;". Lei &egrave; tutta riassunta in questa risposta: una donna pratica, ruvida e profonda nella sua saggezza dettata dall'esperienza. &Egrave; una donna del profondo sud, una donna che porta nel corpo e nell'anima i suoi natali. Se dovessi scegliere un solo aggettivo per descriverla, sceglierei, senza dubbio, "salentina".
