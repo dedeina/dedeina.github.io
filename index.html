@@ -14,6 +14,10 @@ tags: [letteratura, blog, recensioni, scrittura creativa, libri, scrittura migra
 
 {% include base_path %}
 
+{% if page.tags %}
+<meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
+{% endif %}
+
 <p style="text-align:justify"> 
 <i>Accademiacomemangi</i> &egrave; la messa in parole di un pensiero personalissimo che, proprio durante gli anni universitari, spesso &egrave; affiorato quando il professore di turno, incaricato in teoria di spiegarmi ci&ograve; che sola non avrei capito, sembrava esprimersi, pi&ugrave; che in italiano, in aramaico antico, e che suonava pressappoco cos&igrave;: <i>“EEH??”</i>. Sono passate due lauree sotto i ponti e altrettanti anni dall'altro lato della cattedra per arrivare a due convinzioni che ora sono i capi portanti della mia intera esistenza: 
 </p>
