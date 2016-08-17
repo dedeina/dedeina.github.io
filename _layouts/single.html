@@ -23,11 +23,11 @@ layout: default
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
     {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
 
-    <b>A: {{ post.tags | join: ',' }} B: {{ page.tags | join: ',' }}</b>
+    <b>B: {{ page.tags | join: ',' }}</b>
     
     <!-- <meta itemprop="keywords" content="{{ post.tags | join: ',' }}" /> -->
-    {% if post.author and site.data.authors[post.author] %}
-    {% assign pauth = site.data.authors[post.author] %}{% else %}{% assign pauth = site.author %}
+    {% if page.author and site.data.authors[page.author] %}
+    {% assign pauth = site.data.authors[page.author] %}{% else %}{% assign pauth = site.author %}
     {% endif %}
     <b>{{ pauth.name }}</b>
     <!-- <meta itemprop="author" content="{{ pauth.name }}" /> -->
