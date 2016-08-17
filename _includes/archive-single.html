@@ -27,7 +27,7 @@
     
     {% if include.type == "grid" and teaser %}  
     <div class="archive__item-teaser">
-      <img itemprop="image" src=
+      <img src=
           {% if teaser contains "://" %}
             "{{ teaser }}"
           {% else %}
