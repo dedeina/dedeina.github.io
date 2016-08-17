@@ -25,6 +25,15 @@ comments:
 google_site_verification : "Q9q4OT2EbWmqObzwSisEezXXowKBdc-oY5Xb5kgX-C4"
 
 
+# Social Sharing
+twitter:
+  username		 :
+facebook:
+  username               : accademiacomemangi@gmail.com
+  app_id                 : 1073644766036954
+  publisher              : 
+og_image                 : # Open Graph/Twitter default site image	      
+
 # Analytics
 analytics:
   provider               : "google-universal"
