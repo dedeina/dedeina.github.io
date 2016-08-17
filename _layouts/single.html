@@ -27,6 +27,7 @@ layout: default
     {% if page.author and site.data.authors[page.author] %}
     {% assign pauth = site.data.authors[page.author] %}{% else %}{% assign pauth = site.author %}
     {% endif %}
+    
     <meta itemprop="author" content="{{ pauth.name }}" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="{{ page.url }}" />
