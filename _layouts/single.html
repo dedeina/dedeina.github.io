@@ -22,7 +22,7 @@ layout: default
     {% if page.excerpt %}<meta itemprop="description" property="og:description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
     {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
-    {% if page.tags %}<meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
+    {% if page.tags %}<meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />{% endif %}
 
     {% if page.author and site.data.authors[page.author] %}
     {% assign pauth = site.data.authors[page.author] %}{% else %}{% assign pauth = site.author %}
