@@ -29,6 +29,12 @@ layout: default
     {% endif %}
     
     <meta itemprop="author" content="{{ pauth.name }}" />
+    {% if page.header.teaser %}
+      {% capture teaser %}{{ page.header.teaser }}{% endcapture %}
+    {% else %}
+      {% assign teaser = site.teaser %}
+    {% endif %} 
+    <meta property="og:image" content="{{ teaser | prepend: "/images/teaser/" | prepend: base_path }}" />
     
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
@@ -79,13 +85,5 @@ layout: default
         {% endfor %}
       </div>
     </div>
-  {% endif %}
-
-  {% if page.header.teaser %}
-    {% capture teaser %}{{ page.header.teaser }}{% endcapture %}
-  {% else %}
-    {% assign teaser = site.teaser %}
-  {% endif %} 
-    <meta property="og:image" content="{{ teaser | prepend: "/images/teaser/" | prepend: base_path }}" />
-    
+  {% endif %}    
 </div>
