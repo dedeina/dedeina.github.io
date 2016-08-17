@@ -2,9 +2,14 @@
 title: Categorie
 layout: archive
 permalink: /blog/categories/
+tags: [letteratura, blog, recensioni, scrittura creativa, libri, scrittura migrante]
 ---
 
 {% include base_path %}
+
+{% if page.tags %}
+<meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
+{% endif %}
 
 {% capture post_category %}'None'{% endcapture %}
 {% for post in site.posts %}
