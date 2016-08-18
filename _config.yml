@@ -10,7 +10,6 @@ repository               :
 teaser                   : "default-teaser.jpg" 
 breadcrumbs            	 : false
 words_per_minute         : 200
-ampdir			 : _amp
 
 # Comments
 comments: 
@@ -74,8 +73,6 @@ defaults:
 include:
   - .htaccess
   - _pages
-  - _plugins
-  - _amp
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
