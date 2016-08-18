@@ -14,6 +14,10 @@ layout: default
   {% endunless %}
 {% endif %}
 
+{% if page.path contains '_posts' %}
+<link rel="amphtml" href="{{ page.id | prepend: '/_amp' | prepend: site.baseurl | prepend: site.url }}">
+{% endif %}
+
 <div id="main" role="main">
   {% include sidebar.html %}
 
