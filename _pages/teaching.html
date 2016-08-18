@@ -1,27 +1,8 @@
 ---
 title: Esperienze didattiche
 permalink: /teaching/
-tags: [letteratura, blog, recensioni, scrittura creativa, libri, scrittura migrante]
 ---
 
-{% if page.tags %}
-<meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
-{% endif %}
-
 <p>
+Sezione in costruzione
 </p>
-
-<div id="index">
-  {% for course in site.data.courses %}
-
-  <article>
-    <h3>{{ course.title }}</h3>
-
-    <p>
-      {{ course.desc }} <i>&quot;{{ course.title }}&quot;</i> at <a href="{{ course.link }}"> {{ course.place }}</a>, {{ course.date }}.
-    </p>
- 
-  </article>
-  
-  {% endfor %}
-</div>
