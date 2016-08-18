@@ -134,7 +134,6 @@ gems:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-  - amp-jekyll
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -143,7 +142,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-  - amp-jekyll
 
 category_archive:
   type: liquid
