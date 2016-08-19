@@ -1,0 +1,20 @@
+---
+layout: single
+title: Che ne sai di un terrone a Torino?
+category: racconto
+tags: [unterroneatorino]
+header: 
+  teaser: tat-teaser.jpg
+excerpt: 
+Forse dovrei partire rispondendo cosa ne so di una vita con un &#8220;terrone&#8221;: niente, fino a circa sei anni fa, quando un terrone ha preso la mia vita e come un ciclone l&#8217;ha sconvolta. Perch&#233; i terroni, quelli nati in terre matte e ballerine, fanno proprio cos&#236;: ti prendono per sfinimento. E hai voglia tu a porgli resistenza, a dire no, se loro decidono che ci&#242; che vogliono sei tu, combattono, non si arrendono fino a che non vincono. Sono cocciuti e pazienti come asini, e provate voi a far cambiare direzione a un asino, io, con il mio di asinello, proprio non ci sono riuscita, anzi, me ne sono innamorata.
+---
+
+Forse dovrei partire rispondendo cosa ne so di una vita con un &#8220;terrone&#8221;: niente, fino a circa sei anni fa, quando un terrone ha preso la mia vita e come un ciclone l&#8217;ha sconvolta. Perch&#233; i terroni, quelli nati in terre matte e ballerine, fanno proprio cos&#236;: ti prendono per sfinimento. E hai voglia tu a porgli resistenza, a dire no, se loro decidono che ci&#242; che vogliono sei tu, combattono, non si arrendono fino a che non vincono. Sono cocciuti e pazienti come asini, e provate voi a far cambiare direzione a un asino, io, con il mio di asinello, proprio non ci sono riuscita, anzi, me ne sono innamorata.
+
+Sono fatti cos&#236;, sono persone nate sotto il sole, che la pelle se la sono bruciata a furia di esporsi, che non hanno bisogno di crema perch&#233; la protezione ce l&#8217;hanno intorno al cuore, e per scalfirgliela ci vogliono tempo e pazienza, un tempo e una pazienza infinita che spesso non hai ma che trovi perch&#233; sai che con loro ne vale la pena &#8230; e che pena alle volte. Persone che il sole ce l&#8217;hanno dentro e che sanno scaldare quando tu, nata d&#8217;inverno sotto le Alpi, tiri fuori tutta la neve che ben conosci e geli l&#8217;atmosfera.
+
+Il mio poi, come se non bastasse, &#232; nato laddove ci sono mille &#8220;culure&#8221;, nella citt&#224; che pi&#249; di ogni altra &#232; l&#8217;&#8220;addore&#8221; del mare. E lui della sua citt&#224; ha tutti i pregi e i difetti: &#232; una tarantella senza fine, &#232; l&#8217;allegria di chi, nelle tragedie, trova sempre un motivo per sdrammatizzare, &#232; una sceneggiata a toni alti, &#232; il profumo del caff&#232; al mattino, &#232; il maremoto che spacca piatti e bicchieri durante le litigate e la calma dopo la tempesta di un fiore sul cuscino il mattino dopo.
+
+Bene, ora pensate dopo tutto questo di aver convinto il vostro uomo - il terrone di cui sopra, sempre lui - a trasferirsi, a cambiare citt&#224; e ad andare a vivere al &#8220;norde&#8221;, e non un &#8220;norde&#8221; qualsiasi, ma bens&#236; a Torino, la citt&#224; dove d&#8217;inverno nevica e il termometro scende sotto lo zero. Dove per antipasto ti portano la bruschetta &#8211; &#8220;ma ch&#233;re, nu piezz e pan co duje pummarole schiattarici&#224;t?&#8221; - e il piatto tipico &#232; la bagna cauda &#8211; il commento qui non &#232; davvero scrivibile - dove i formaggi puzzano e la gente si presenta stringendoti la mano e chiedendoti &#8220;Com&#8217;&#232; ?&#8221;. Vi dico solo che quando per scherzo l&#8217;ha chiesto a sua madre, lei gli ha risposto &#8220;U&#232; ammor tutt&#242; a posto. Nun te sient bene? Aggia ven&#236; a Turin a mamm&#224;?&#8221;.
+
+Ora viviamo qui da circa un mese, abbiamo preso casa ma i lavori di ristrutturazione sono lunghi, e per &#8220;appoggiarci&#8221; dormiamo da mia nonna, in due letti separati, certo, lui nel lettino in cameretta, io nel matrimoniale con lei. Ancora non ha ucciso nessuno, perci&#242; direi che, tutto sommato, il &#8220;giovane&#8221; incassa bene.
