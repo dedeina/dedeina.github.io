@@ -5,6 +5,7 @@
 {% endif %}
 
 <div itemscope itemtype="http://schema.org/Person">
+  <meta itemprop="name" content="{{ author.name }}"/>
 
   <div class="author__avatar">
     {% if author.avatar contains "://" %}
