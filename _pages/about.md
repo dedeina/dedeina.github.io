@@ -1,6 +1,7 @@
 ---
 title: Chi sono
 permalink: /about/
+description: "Accademiacomemangi &egrave; un Blog che non pretende nulla se non di non essere preso troppo sul serio e di parlare liberamente senza il timore di essere mal giudicato."
 ---
 
 <p>
