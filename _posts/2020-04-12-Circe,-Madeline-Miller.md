@@ -5,7 +5,7 @@ category: recensioni
 author: fdiacinti
 tags: []
 header:
-  teaser: review-teaser.jpg
+  teaser: circe-teaser.jpg
 excerpt: \"Non tutti gli dei devono per forza essere uguali\" disse Prometeo alla giovane figlia di Elios, poco più che bambina davanti a un sole di sangue, dorato come gli occhi di lei, a cui il fato ha destinato millenni scuri come gli occhi di lui.
 ---
 
@@ -24,7 +24,7 @@ La morte: destino dei molti, diletto dei pochi; il gemello del sonno rovescia la
 Verso la fine di questa storia, Circe farà uso per l’ultima volta dei pharmaka, abbandonando quel mondo divino di cui non si è mai sentita parte, decidendo, così, di passare il resto della propria vita insieme al mortale della profezia che, come lei, ha abbandonato ciò che era e avrebbe potuto essere, divenendo assieme a lei ciò vuole essere.
 Nessun personaggio si evolve più di Circe, dimostrandoci che Prometeo aveva ragione, e chissà se una volta diventata libera, ella non sia riuscita a capire cosa intendesse Prometeo quando in risposta alle sue domande le disse: “Magari puoi dirmelo tu. Perché un dio farebbe una cosa simile?”.
 
-[^1]: In filosofia la res extensa e res cogitans sono rispettivamente lo spazio (materia compresa) e la mente. In questo caso, la giovane protagonista è convinta che i pharmaka liberino l’essenza dell’anima di chi li consuma. In realtà è la res cogitans di Circe a modificare la realtà, in quanto res extensa.
+[^1]: In filosofia res extensa e res cogitans sono rispettivamente lo spazio (materia compresa) e la mente. In questo caso, la giovane protagonista è convinta che i pharmaka liberino l’essenza dell’anima di chi li consuma. In realtà è la res cogitans di Circe a modificare la realtà, in quanto res extensa.
 [^2]: Chi combatte contro i mostri deve guardarsi da non diventare egli stesso un mostro. E quando guardi a lungo in un abisso, anche l’abisso ti guarda dentro, Nietzsche F.,
 [^3]: Il super io è una sezione semi-conscia della psiche e ha la facoltà di reprimere l’Es, il desiderio. Freud afferma l’esistenza di proiezioni del super io nella figura paterna, nella società e in Dio, una sorta di autorità paterna eterna.
 [^4]: Libido e destrudo sono due caratteristiche tipiche dell’uomo che lo spingono ad agire con istinto vitalistico, collegato alla volontà per il primo e istinto di morte che spinge alla distruzione degli altri e di sé stessi per il secondo. Eros e Thanatos.
