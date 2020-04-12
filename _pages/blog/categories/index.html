@@ -7,10 +7,11 @@ description: "Accademiacomemangi &egrave; un Blog che non pretende nulla se non 
 ---
 
 {% include base_path %}
-
+<!--
 {% if page.tags %}
 <meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
 {% endif %}
+-->
 
 {% capture post_category %}'None'{% endcapture %}
 {% for post in site.posts %}
@@ -25,4 +26,3 @@ description: "Accademiacomemangi &egrave; un Blog che non pretende nulla se non 
   {% endif %}
   {% include archive-single.html %}
 {% endfor %}
-    
