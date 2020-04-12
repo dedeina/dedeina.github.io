@@ -9,9 +9,6 @@ main:
 
   - title: "Categorie"
     url: /blog/categories/
-
-  - title: "Insegnamento"
-    url: /teaching/
     
   - title: "Chi sono"
     url: /about/
