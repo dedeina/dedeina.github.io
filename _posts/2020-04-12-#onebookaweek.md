@@ -2,6 +2,7 @@
 layout: single
 title: #onebookaweek
 category: diariodibordo
+author: asanson
 tags: []
 header:
   teaser: review-teaser.jpg

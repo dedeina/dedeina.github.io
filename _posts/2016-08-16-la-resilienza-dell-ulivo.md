@@ -2,6 +2,7 @@
 layout: single
 title: La resilienza dell'ulivo
 category: racconto
+author: asanson
 tags: []
 header:
   teaser: ulivo-teaser.jpg

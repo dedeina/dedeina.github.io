@@ -2,7 +2,7 @@
 layout: single
 title: Circe, Madeline Miller
 category: recensioni
-author: 'Francisco Diacinti - Classe V^A'
+author: fdiacinti
 tags: []
 header:
   teaser: review-teaser.jpg

@@ -2,8 +2,9 @@
 layout: single
 title: Il gioco della letteratura
 category: racconto
+author: asanson
 tags: []
-header: 
+header:
   teaser: let-teaser.jpg
 excerpt: L\'idea, alla quale questo blog deve la sua nascita, &egrave; venuta a me una sera d'estate, quando il sonno tardava ad arrivare e al suo posto una moltitudine di pensieri presero forma. Si muovevano liberi e incuranti, mentre io ero l&igrave;, inerme, a guardarli farsi spazio nella mia testa, per finire con l\'occuparla, quasi fosse il palcoscenico di un teatro abbandonato.
 ---

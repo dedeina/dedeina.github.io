@@ -4,26 +4,12 @@ asanson:
   bio              : "<span style=\"font-size: 85%;\">&quot;Chi non legge, a 70 anni avr&agrave; vissuto una sola vita: la propria. Chi legge avr&agrave; vissuto 5000 anni: c'era quando Caino uccise Abele, quando Renzo spos&ograve; Lucia, quando Leopardi ammirava l'infinito... perch&egrave; la lettura &egrave; un'immortalit&agrave; all'indietro.&quot;<span style=\"color: grey;\"> (Umberto Eco)</span></span>"
   location         : "Turin, IT"
   email            : "accademiacomemangi@gmail.com"
-  uri              : 
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         : accademia.comemangi 
-  foursquare       :
-  github           :
-  google_plus      :
-  keybase          :
-  instagram        :
-  lastfm           :
+  facebook         : accademia.comemangi
   linkedin         : "angela-sanson-476137125"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          :
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
+
+
+fdiacinti:
+  name             : "Francisco Diacinti"
+  avatar           :
+  bio              : "<span style=\"font-size: 85%;\">Classe V, Sezione A, Anno 2019/2020</span></span>"
+  location         : "Turin, IT"
