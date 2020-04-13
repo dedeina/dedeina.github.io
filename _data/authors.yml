@@ -10,17 +10,17 @@ asanson:
 sboeris:
   name             : "Stefano Boeris"
   avatar           : "generic-bio-photo.jpg"
-  bio              : "<span style=\"font-size: 85%;\"><b>Classe&#58;</b> V<br><b>Sezione&#58;</b> A<br><b>Anno Scolastico&#58;</b> 2018/2019</span></span>"
+  bio              : "<span style=\"font-size: 85%;\"><b>Classe&#58;</b> V<br><b>Anno Scolastico&#58;</b> 2018/2019</span></span>"
   location         : "Turin, IT"
 
 fdiacinti:
   name             : "Francisco Diacinti"
   avatar           : "generic-bio-photo.jpg"
-  bio              : "<span style=\"font-size: 85%;\"><b>Classe&#58;</b> V<br><b>Sezione&#58;</b> A<br><b>Anno Scolastico&#58;</b> 2019/2020</span></span>"
+  bio              : "<span style=\"font-size: 85%;\"><b>Classe&#58;</b> V<br><b>Anno Scolastico&#58;</b> 2019/2020</span></span>"
   location         : "Turin, IT"
 
 fgarrone:
   name             : "Federico Garrone"
   avatar           : "generic-bio-photo.jpg"
-  bio              : "<span style=\"font-size: 85%;\"><b>Classe&#58;</b> V<br><b>Sezione&#58;</b> A<br><b>Anno Scolastico&#58;</b> 2019/2020</span></span>"
+  bio              : "<span style=\"font-size: 85%;\"><b>Classe&#58;</b> V<br><b>Anno Scolastico&#58;</b> 2019/2020</span></span>"
   location         : "Turin, IT"
